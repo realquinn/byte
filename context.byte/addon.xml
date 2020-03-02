@@ -8,7 +8,7 @@
 			<item library="traktManager.py">
 				<label>[B][COLOR red]BYTE[/COLOR][/B] - Trakt Manager</label>
 				<visible>
-					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isBYTE_widget),true) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isVenom_widget),true) +
 					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,movie)]
 				</visible>
 			</item>
@@ -16,7 +16,7 @@
 			<item library="rescrape.py">
 				<label>[B][COLOR red]BYTE[/COLOR][/B] - Rescrape Item</label>
 				<visible>
-					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isBYTE_widget),true) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isVenom_widget),true) +
 					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
 				</visible>
 			</item>
@@ -24,7 +24,7 @@
 			<item library="clearProviders.py">
 				<label>[B][COLOR red]BYTE[/COLOR][/B] - Clear Providers</label>
 				<visible>
-					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isBYTE_widget),true) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isVenom_widget),true) +
 					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
 				</visible>
 			</item>
@@ -32,7 +32,7 @@
 <!-- 			<item library="autoPlay.py">
 				<label>[B][COLOR red]BYTE[/COLOR][/B] - Auto Play</label>
 				<visible>
-					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isBYTE_widget),true) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isVenom_widget),true) +
 					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
 				</visible>
 			</item> -->
@@ -40,7 +40,7 @@
 <!-- 			<item library="sourceSelect.py">
 				<label>[B][COLOR red]BYTE[/COLOR][/B] - Source Select</label>
 				<visible>
-					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isBYTE_widget),true) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isVenom_widget),true) +
 					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
 				</visible>
 			</item> -->
@@ -48,7 +48,7 @@
 			<item library="findSimilar.py">
 				<label>[B][COLOR red]BYTE[/COLOR][/B] - Find Similar</label>
 				<visible>
-					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isBYTE_widget),true) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isVenom_widget),true) +
 					[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]
 				</visible>
 			</item>
@@ -56,7 +56,7 @@
 			<item library="browseSeries.py">
 				<label>[B][COLOR red]BYTE[/COLOR][/B] - Browse Series</label>
 				<visible>
-					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isBYTE_widget),true) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isVenom_widget),true) +
 					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow)]
 				</visible>
 			</item>
@@ -64,7 +64,7 @@
 			<item library="browseEpisodes.py">
 				<label>[B][COLOR red]BYTE[/COLOR][/B] - Browse Episodes</label>
 				<visible>
-					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isBYTE_widget),true) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.byte/) + String.IsEqual(ListItem.Property(isVenom_widget),true) +
 					String.IsEqual(ListItem.dbtype,episode)
 				</visible>
 			</item> -->
